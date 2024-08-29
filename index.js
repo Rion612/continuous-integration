@@ -6,3 +6,7 @@ module.exports.digitalRoot = function digitalRoot(number) {
     }
     return number;
 };
+
+module.exports.isEven =  function isEven(number) {
+    return number%2 == 0;
+};
