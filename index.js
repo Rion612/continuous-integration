@@ -10,3 +10,8 @@ module.exports.digitalRoot = function digitalRoot(number) {
 module.exports.isEven =  function isEven(number) {
     return number%2 == 0;
 };
+
+
+module.exports.isOdd =  function isOdd(number) {
+    return number%2 == 1;
+};
