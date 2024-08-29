@@ -1,4 +1,5 @@
-const digitalRoot = require('./index')
+const utils = require('./index')
+const {digitalRoot} = utils;
 
 test('dummy test', () => {
     expect(2).toBe(2);
